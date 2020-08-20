@@ -15,3 +15,8 @@
       ios_command:
         commands:
          - sho run | i snmp
+      register: snmp
+
+    - name: print out the results of ios_facts
+      debug:
+        msg: "{{ facts }}"
