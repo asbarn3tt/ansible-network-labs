@@ -19,4 +19,4 @@
 
     - name: print out the results of ios_facts
       debug:
-        msg: "{{ facts }}"
+        msg: "{{ snmp }}"
